@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+    <head>
+       
+        <title>Task </title>
+        <style>
+		
+		html {
+  scroll-behavior: smooth;
+}
+        body {
+		margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+		}
+
+
+
+	.header {
+  padding: 10px 16px;
+  background: #a81919;
+  width: 100%;
+  float: right;
+     box-shadow: 2px 2px
+  
+  
+  
+	}
+
+	.fullscreendiv{
+
+	width:auto;
+	height:1000px;
+
+
+
+	}
+	
+	.myname {
+	text-align: center;
+	position: relative;
+	top: 35%;
+	transform: translateY(-50%);
+
+	font-size: 2.5em;
+
+	}
+	.block{
+	display: block;
+	
+	
+	}
+	
+	
+	.lovlysubject{
+	margin: 0;
+	text-align: center;
+	font-size: 2.5em;
+	border-bottom: 5px solid #f0e9e9;
+	width: 700px;
+	color: #f0e9e9;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 2%;
+	
+	}
+	
+	div.gallery {
+	
+	vertical-align: middle;
+	display:inline-block;
+	margin:3%;
+	
+	text-align: center;
+	background-color: #060b24;
+	
+	box-shadow: 2px 2px;
+	width: 400px;
+	}
+	.hovertext{
+	
+	}
+
+	div.gallery:hover {
+ 
+  visibility: visible;
+	}
+
+	div.gallery img {
+	
+	 max-width:400px;
+  max-height:400px;
+  width: auto;
+  height: auto;
+	}
+
+	div.desc {
+  padding: 15px;
+  text-align: center;
+	}
+	a {
+  text-decoration: none;
+  color:white;
+}
+
+	#div1{
+	background-color: #39393b;
+
+
+	}
+	#div2{
+	background-color:#0d184d;
+	width:auto;
+	height: auto;
+	margin: 0;
+
+
+	}
+	#myjob{
+	color: #a81919;
+	}
+
+		#div3{
+	background-color: #39393b;
+	text-align: center;
+
+
+	}	
+	#text{
+	display: inline;
+	
+	}
+	#mynameis{
+	
+	color:#f0e9e9;
+	
+	}
+	.hovertext{
+	color: orange;
+	
+	}
+	.gallery .hovertext {
+
+	visibility:hidden;
+	opacity: 0;
+	transition: visibility 0s 0.25s, opacity 0.25s linear;
+	}
+	.gallery:hover .hovertext {
+	visibility:visible;
+	opacity: 1;
+	transition: opacity 0.25s linear;
+	}
+	
+	#coffee{
+	font-size: 4em;
+	margin: 0;
+	text-align: center;
+	padding-top: 15%;
+	color:#f0e9e9;
+	
+	
+	
+	}
+	#tea{
+	font-size: 2em;
+	margin: 0;
+	text-align: center;
+	padding-top: 2%;
+	font-style: italic;
+	color:#f0e9e9;
+	
+	}
+	.sticky {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+}
+
+.headbutton{
+display:inline-block;
+background-color: blue;
+float: right;
+
+
+}
+.headbutton: hover{
+
+background-color:#0d184d; 
+
+
+
+}
+.header-right{
+float: right;
+
+}
+.header-right a{
+	float: left;
+  color:#f0e9e9;
+  text-align: center;
+  padding:10px;
+  
+  
+
+}
+header-right a:hover{
+background-color: #ddd;
+
+
+
+}
+.hovers{
+
+}
+.hovers:hover{S
+background-color:#0d184d;
+
+}
+.contact:{
+ 
+}
+
+
+
+        </style>
+    </head>
+    <body>
+	<div class="header" id="myHeader">
+  <h2 >
+  <div class="header-right">
+  <a href="#div1" class="hovers">about</a>
+<a href="#div2" class="hovers">cats</a>
+<a href="#div3" class="hovers">drink</a>
+</div>
+</h2>
+</div>
+	<div class="fullscreendiv" id="div1">
+	
+	<div class="myname" >
+	<b class="block" id="mynameis"> Rashed </b>
+	<b class="block" id="myjob"> Front End Web Developer</b>
+	
+	</div>
+	
+	
+	</div>
+	<div class="fullscreendiv" id="div2">
+	
+	<div class="lovlysubject">    <h2 >i love cats!</h2>        </div>
+	
+	<div class="gallery" >
+  <a target="_blank" href="https://res.cloudinary.com/yawanseh/image/upload/v1562614498/cats/12716885_1036043873124983_921931635_a.jpg.jpg">
+    <img src="https://res.cloudinary.com/yawanseh/image/upload/v1562614498/cats/12716885_1036043873124983_921931635_a.jpg.jpg"  width="600" height="400">
+  </a>
+  <div class="desc"><p class="hovertext" id="text"><</p><p id="text"><a href="https://www.instagram.com/nala_cat/">Nala Cat</a></p><p class="hovertext" id="text">/></p></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://res.cloudinary.com/yawanseh/image/upload/v1562614485/cats/49492351_1077163645787778_8146152281482461184_n.jpg.jpg">
+    <img src="https://res.cloudinary.com/yawanseh/image/upload/v1562614485/cats/49492351_1077163645787778_8146152281482461184_n.jpg.jpg"  width="600" height="400">
+  </a>
+  <div class="desc"><p class="hovertext" id="text"><</p><p id="text"><a href="https://www.instagram.com/realgrumpycat/">Grumpy Cat</a></p><p class="hovertext" id="text">/></p></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://res.cloudinary.com/yawanseh/image/upload/v1562614473/cats/37335443_208311143173743_190030355565117440_n.jpg.jpg">
+    <img src="https://res.cloudinary.com/yawanseh/image/upload/v1562614473/cats/37335443_208311143173743_190030355565117440_n.jpg.jpg"  width="600" height="400">
+  </a>
+  <div class="desc"><p class="hovertext" id="text"><</p><p id="text"><a href="https://www.instagram.com/iamlilbub/">Lil BUB</a></p><p class="hovertext" id="text">/></p></div>	
+</div>
+
+<div class="gallery">
+
+
+
+  <a target="_blank" href="https://res.cloudinary.com/yawanseh/image/upload/v1562614504/cats/12628098_1652419398353535_1919401402_a.jpg.jpg">
+    <img src="https://res.cloudinary.com/yawanseh/image/upload/v1562614504/cats/12628098_1652419398353535_1919401402_a.jpg.jpg"  width="600" height="400">
+  </a>
+  <div class="desc"><p class="hovertext" id="text"><</p><p id="text"><a href="https://www.instagram.com/white_coffee_cat/">White Coffee Cat</a></p><p class="hovertext" id="text">/></p></div>
+  
+  </div>
+  
+  <div class="gallery">
+  
+  <a target="_blank" href="https://res.cloudinary.com/yawanseh/image/upload/v1562614514/cats/15101598_228789270887075_5950462766660714496_a.jpg.jpg">
+    <img src="https://res.cloudinary.com/yawanseh/image/upload/v1562614514/cats/15101598_228789270887075_5950462766660714496_a.jpg.jpg" width="600" height="400">
+  </a>
+  <div class="desc"><p class="hovertext" id="text"><</p><p id="text"><a href="https://www.instagram.com/smoothiethecat/">smoothie</a></p><p class="hovertext" id="text">/></p></div>
+  </div>
+  <div class="gallery">
+  <a target="_blank" href="https://res.cloudinary.com/yawanseh/image/upload/v1562614522/cats/10725007_197104723995830_1151890630_a.jpg.jpg">
+    <img src="https://res.cloudinary.com/yawanseh/image/upload/v1562614522/cats/10725007_197104723995830_1151890630_a.jpg.jpg"  width="600" height="400">
+  </a>
+  <div class="desc"><p class="hovertext" id="text"><</p><p id="text"><a href="https://www.instagram.com/venustwofacecat/">Venus The Two Faced Cat</a></p><p class="hovertext" id="text">/></p></div>
+  
+  </div>
+  
+
+	
+	
+	
+	</div>
+	
+	<div class="fullscreendiv" id="div3">
+	
+	
+	
+	
+	<h2 id="coffee">I like Tea!</h2>
+	
+	<p id="tea">my favorite drink while coding is Tea</p>
+	
+	
+	<address>
+<a href="mailto:webmaster@example.com" class="contact">@send me a email me</a> <br>
+
+<a href="tel:0796940802" class="contact">✆ Call me!</a>
+</address>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</div >
+		
+		
+		
+    </body>
+	<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+</html>
